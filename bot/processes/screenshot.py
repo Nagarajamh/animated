@@ -5,7 +5,6 @@ import math
 import logging
 import tempfile
 import datetime
-import ffmpeg
 
 from pyrogram.types import InputMediaPhoto, InputMediaDocument
 
