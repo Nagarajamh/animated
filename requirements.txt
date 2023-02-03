@@ -1,5 +1,5 @@
 pyrogram==1.1.13
-tgcrypto=1.2.2
+tgcrypto
 motor==2.3.0
 dnspython==2.1.0
 async-timeout
