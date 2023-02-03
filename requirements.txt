@@ -1,7 +1,7 @@
-pyrogram
-tgcrypto
-motor
-dnspython
+pyrogram==1.1.13
+tgcrypto=1.2.2
+motor==2.3.0
+dnspython==2.1.0
 async-timeout
 Flask==2.2.2
 gunicorn==20.1.0
