@@ -1,10 +1,9 @@
 FROM python:3.9.1-buster
-FROM alpine:3.12
+FROM ubuntu:20.04
 
-RUN apk add --no-cache ffmpeg
+RUN apt-get update && apt-get install -y ffmpeg
+CMD [ "ffmpeg" ]
 
-docker build -t my-ffmpeg-image
-docker run -it --name my-ffmpeg-container my-ffmpeg-image sh
 
 
 
