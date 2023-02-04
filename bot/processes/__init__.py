@@ -1,4 +1,3 @@
-import sys
 from bot.utils import ProcessTypes
 from .sample import SampleVideoProcess
 from .manual_screenshot import ManualScreenshotsProcess
@@ -6,7 +5,6 @@ from .trim import TrimVideoProcess
 from .screenshot import ScreenshotsProcess
 from .mediainfo import MediaInfoProcess
 
-sys.path.append('/path/to/ffmpeg')
 
 class ProcessFactory:
     def __init__(self, process_type, client, input_message, reply_message=None):
