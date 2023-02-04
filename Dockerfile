@@ -7,7 +7,7 @@ docker build -t my-ffmpeg-image
 docker run -it --name my-ffmpeg-container my-ffmpeg-image sh
 
 
-RUN apt-get update -qq && apt-get -y install ffmpeg
+
 
 WORKDIR /usr/src/app
 
